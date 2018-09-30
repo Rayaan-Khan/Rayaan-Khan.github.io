@@ -1,0 +1,53 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+
+    background-image: url("https://hdqwalls.com/download/mountains-night-sky-2560x1440.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.centeredTitle {
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.centeredButton{
+
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#btn-primary {
+    background: #0099cc;
+    color: #ffe6ff;
+}
